@@ -1,1 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#003c8f</color>
+    <color name="primary_light">#E3F2FD</color>
+    <color name="secondary">#00897B</color>
+    <color name="secondary_dark">#005B4F</color>
+    <color name="secondary_light">#E0F2F1</color>
 
+    <!-- Material Theme -->
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryVariant">#003c8f</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#00897B</color>
+    <color name="colorSecondaryVariant">#005B4F</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <!-- Background & Surface -->
+    <color name="background">#F5F7FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F0F4F8</color>
+    <color name="splash_bg">#1565C0</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Status -->
+    <color name="error">#D32F2F</color>
+    <color name="success">#388E3C</color>
+    <color name="warning">#F57C00</color>
+    <color name="info">#1976D2</color>
+
+    <!-- Tool Card Colors -->
+    <color name="tool_blue">#1E88E5</color>
+    <color name="tool_red">#E53935</color>
+    <color name="tool_teal">#00897B</color>
+    <color name="tool_orange">#FB8C00</color>
+    <color name="tool_purple">#8E24AA</color>
+    <color name="tool_green">#43A047</color>
+    <color name="tool_indigo">#3949AB</color>
+    <color name="tool_yellow">#F9A825</color>
+    <color name="tool_gray">#546E7A</color>
+    <color name="tool_pink">#D81B60</color>
+
+    <!-- Bottom Nav -->
+    <color name="bottom_nav_selected">#1565C0</color>
+    <color name="bottom_nav_unselected">#9E9E9E</color>
+
+    <!-- Dark Mode -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="text_primary_dark">#ECECEC</color>
+    <color name="text_secondary_dark">#AAAAAA</color>
+    <color name="primary_dark_theme">#90CAF9</color>
+</resources>
