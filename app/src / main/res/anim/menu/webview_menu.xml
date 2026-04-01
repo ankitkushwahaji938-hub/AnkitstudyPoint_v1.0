@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_bookmark"
+        android:icon="@drawable/ic_bookmark"
+        android:title="Bookmark"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="🔄 Refresh"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_open_browser"
+        android:title="🌐 Open in Browser"
+        app:showAsAction="never"/>
+
+</menu>
