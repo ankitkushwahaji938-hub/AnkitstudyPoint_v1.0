@@ -1,1 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext for blogspot & github pages -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">ankitstudypoint.blogspot.com</domain>
+        <domain includeSubdomains="true">blogspot.com</domain>
+        <domain includeSubdomains="true">ankitkushwahaji938-hub.github.io</domain>
+        <domain includeSubdomains="true">github.io</domain>
+    </domain-config>
+    <!-- All other traffic uses HTTPS -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>

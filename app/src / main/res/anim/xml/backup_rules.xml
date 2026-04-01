@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="sharedpref" path="asp_prefs.xml"/>
+    <include domain="sharedpref" path="asp_bookmarks.xml"/>
+    <exclude domain="cache" path="."/>
+    <exclude domain="external-cache" path="."/>
+</full-backup-content>
